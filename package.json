@@ -1,0 +1,24 @@
+{
+  "name": "covid19-bot",
+  "version": "1.0.0",
+  "description": "Bot for get last commit from github repo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "kenriortega",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^17.5.1",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "telegraf": "^3.37.0",
+    "cron": "^1.8.2",
+    "nodemailer": "^6.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
