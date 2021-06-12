@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@octokit/rest": "^17.5.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "dotenv": "^8.2.0",
     "telegraf": "^3.37.0",
     "cron": "^1.8.2",
